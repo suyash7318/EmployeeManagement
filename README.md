@@ -27,6 +27,14 @@ This Employee Management System is designed to:
 - Jackson (for JSON handling)
 - Lombok (optional, not used here)
 
+## 🔐 Security
+
+- APIs are secured using **Spring Security**
+- Basic Authentication is enabled by default
+- Username and password can be configured in `application.properties`
+- Only authenticated users can access endpoints
+
+
 ## 🔍 Relationships
 
 - **Employee ↔ Department**: Many-to-Many
